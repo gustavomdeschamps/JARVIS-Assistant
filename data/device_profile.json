@@ -1,0 +1,55 @@
+{
+  "scanned_at": 1787797367.8636014,
+  "hostname": "DESKTOP-012LU2R",
+  "manufacturer": "Dell Inc.",
+  "model": "Latitude 5490",
+  "os": {
+    "name": "Windows",
+    "release": "11",
+    "version": "10.0.22631",
+    "architecture": "AMD64"
+  },
+  "cpu": {
+    "name": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+    "cores": 4,
+    "logical_processors": 8,
+    "max_clock_mhz": 1800
+  },
+  "ram": {
+    "total_gb": 7.9
+  },
+  "gpus": [
+    {
+      "Name": "Intel(R) UHD Graphics 620",
+      "AdapterRAM": 1073741824,
+      "DriverVersion": "30.0.101.1338"
+    }
+  ],
+  "bios": {
+    "Manufacturer": "Dell Inc.",
+    "SMBIOSBIOSVersion": "1.33.0"
+  },
+  "battery": {
+    "percent": 100.0,
+    "plugged": true
+  },
+  "disks": [
+    {
+      "device": "C:\\",
+      "mountpoint": "C:\\",
+      "filesystem": "NTFS",
+      "total_gb": 237.5,
+      "free_gb": 104.7,
+      "used_percent": 55.9
+    }
+  ],
+  "folders": {
+    "home": "C:\\Users\\DELL",
+    "desktop": "C:\\Users\\DELL\\Desktop",
+    "downloads": "C:\\Users\\DELL\\Downloads",
+    "documents": "C:\\Users\\DELL\\Documents",
+    "pictures": "C:\\Users\\DELL\\Pictures",
+    "music": "C:\\Users\\DELL\\Music",
+    "videos": "C:\\Users\\DELL\\Videos"
+  }
+}

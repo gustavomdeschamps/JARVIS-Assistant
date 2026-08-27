@@ -1,0 +1,10 @@
+PySide6
+PyOpenGL
+numpy
+psutil
+SpeechRecognition
+sounddevice
+edge-tts
+pygame-ce
+pyttsx3
+requests
