@@ -1,62 +1,31 @@
-# JARVIS - Windows 10/11
+# JARVIS — Intelligent Windows Assistant
 
-## 1. Abra a pasta no VS Code
+JARVIS é um projeto de assistente pessoal para Windows 11 desenvolvido em Python.
 
-Abra a pasta `JARVIS`.
+O objetivo do projeto é criar uma interface de inteligência artificial capaz de interagir com o usuário por voz, compreender linguagem natural, conversar, analisar informações reais do computador e executar ações no Windows.
 
-## 2. Crie o ambiente virtual
+A ideia não é criar apenas um sistema de comandos de voz com frases fixas, mas sim um assistente que consiga interpretar o significado do que o usuário está dizendo.
 
-No terminal do VS Code:
+---
 
-```powershell
-python -m venv .venv
-```
+## Objetivo do Projeto
 
-## 3. Instale as dependências
+O principal objetivo do JARVIS é desenvolver um assistente de desktop que combine:
 
-```powershell
-.\.venv\Scripts\python.exe -m pip install --upgrade pip
-```
+- reconhecimento de voz;
+- inteligência artificial local;
+- compreensão de linguagem natural;
+- controle do Windows;
+- reconhecimento dos programas instalados;
+- análise de hardware;
+- informações em tempo real do computador;
+- respostas por voz;
+- interface gráfica tecnológica;
+- elementos e animações 3D.
 
-Depois:
+O usuário deve conseguir conversar naturalmente com o sistema sem precisar decorar comandos específicos.
 
-```powershell
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-```
+Por exemplo:
 
-## 4. Execute
-
-```powershell
-.\.venv\Scripts\python.exe main.py
-```
-
-## 5. Teste
-
-Primeiro pelo campo de texto:
-
-- `teste de voz`
-- `abrir calculadora`
-- `abrir youtube`
-- `abrir arquivos`
-
-Depois por voz:
-
-- `Jarvis`
-- espere ele responder `Sim?`
-- quando aparecer `Ouvindo`, diga `Abra o YouTube`
-
-Também funciona direto:
-
-- `Jarvis abra a calculadora`
-- `Jarvis abra o YouTube`
-- `Jarvis que horas são`
-- `Jarvis pesquisar Java Spring Boot`
-
-## Observações
-
-- O reconhecimento de voz usa internet.
-- A voz masculina principal usa `pt-BR-AntonioNeural`.
-- Caso essa voz falhe, o programa tenta usar uma voz disponível no Windows.
-- O Windows precisa detectar um microfone.
-- Se o VS Code mostrar imports amarelos, selecione o interpretador:
-  `Ctrl + Shift + P` -> `Python: Select Interpreter` -> `.venv\Scripts\python.exe`.
+```text
+"Jarvis, quero programar um pouco."
