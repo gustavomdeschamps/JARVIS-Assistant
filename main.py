@@ -1427,6 +1427,16 @@ class JarvisWindow(
 
         try:
 
+            self.commands.shutdown()
+
+
+        except Exception:
+
+            pass
+
+
+        try:
+
             self.voice.close()
 
 

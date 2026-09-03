@@ -1,0 +1,36 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# ============================================================
+# Virtual environments
+# ============================================================
+.venv/
+venv/
+env/
+
+# ============================================================
+# JARVIS runtime data
+# ============================================================
+# Everything under data/ is generated on this machine at runtime
+# (hardware/app inventory caches, TTS audio cache, notes, timers,
+# reminders, long-term facts, logs, screenshots, ...). None of it is
+# portable across machines or users, so none of it belongs in git.
+data/*
+!data/.gitkeep
+
+# ============================================================
+# Editors / OS
+# ============================================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
