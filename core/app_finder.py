@@ -4,7 +4,16 @@ import re
 import subprocess
 import time
 import unicodedata
-import winreg
+
+try:
+    # winreg only exists on Windows. Guarding the import lets this module
+    # (and everything that transitively imports it, like core.commands)
+    # be imported on Linux/macOS too — useful for running the test suite
+    # or developing parts of the app off of Windows. scan_registry() below
+    # simply becomes a no-op when winreg isn't available.
+    import winreg
+except ImportError:
+    winreg = None
 
 from dataclasses import (
     asdict,
@@ -709,6 +718,11 @@ class AppFinder:
     def scan_registry(
         self
     ):
+
+        if winreg is None:
+
+            return
+
 
         registry_path = (
 

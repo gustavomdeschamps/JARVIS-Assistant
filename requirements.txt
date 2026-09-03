@@ -8,3 +8,4 @@ edge-tts
 pygame-ce
 pyttsx3
 requests
+Pillow
